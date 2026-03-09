@@ -4,8 +4,9 @@
     "module": "none",
     "outDir": ".",
     "strict": true,
-    "rootDir": "."
+    "rootDir": ".",
+    "skipLibCheck": true
   },
   "include": ["*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "*.test.ts"]
 }

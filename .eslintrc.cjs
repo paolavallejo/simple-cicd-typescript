@@ -15,4 +15,10 @@ module.exports = {
   rules: {
     "@typescript-eslint/no-non-null-assertion": "off",
   },
+  overrides: [
+    {
+      files: ["*.test.ts"],
+      env: { jest: true },
+    },
+  ],
 };
